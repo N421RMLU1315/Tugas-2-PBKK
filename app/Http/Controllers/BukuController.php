@@ -9,7 +9,7 @@ class BukuController extends Controller
     public function buku()
     {
         $nama_buku = "Hujan";
-        $penulis = "Andrea Hinata";
+        $penulis = "Tere Liye";
 
         return view("buku", compact("nama_buku", "penulis"));
     }

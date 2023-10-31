@@ -55,12 +55,15 @@ button:hover {
     </style>
 </head>
 <body>
-  <h1>Siswa</h1>
+  <h1>Buku</h1>
     <div class="info">
+        Judul Buku : {{ $book -> title }}
         <br>
-        Nama : {{ $nama }}
         <br>
-        Umur : {{ $umur }}
+        Penulis : {{ $book -> author }}
+        <br>
+        <br>
+        Deskripsi : {{ $book -> description  }}
     </div>
 </body>
 </html>

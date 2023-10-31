@@ -8,7 +8,7 @@ class SiswaController extends Controller
 {
     public function siswa()
     {
-        $nama = "Nazir Mahmudi Lubis";
+        $nama = "Muhamad Rifqi Afriansyah";
         $umur = "20";
         return view("siswa", compact("nama", "umur"));
     }
